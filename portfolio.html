@@ -1,0 +1,146 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Animation</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+	
+<style>
+
+    @import 'https://fonts.googleapis.com/css?family=Poiret+One';
+	
+    body {
+        height: 100%;
+        width: 100%;
+    }
+
+    #wrapper_1 {
+	    background:url('Images/vnay.jpg');
+		margin:0;
+		padding:0;
+		background-position:center center;
+		background-repeat:no-repeat;
+		background-size:cover;
+		height:100vh;
+	}
+	
+	.fa-angle-double-down {
+        vertical-align: 8%;
+    }
+	
+	#header a:hover {
+        font-size: 50px;
+    }
+
+    #header a {
+        font-size: 45px;
+        color: #505050;
+        -webkit-transition: all .2s ease-in-out;
+        -moz-transition: all .2s ease-in-out;
+        transition: all .2s ease-in-out;
+    }
+	
+	#header {
+        text-align: center;
+    }
+	
+	#welcome {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-70%, -40%);
+    }
+	
+	#welcome h4{
+	    font-family: 'Poiret One', cursive;
+		font-size:24px;
+		font-weight:700;
+		padding-bottom: 30px;
+	}
+	
+	h1 {
+        font-size: 70px;
+        font-weight: 700;
+        word-wrap: break-word;
+		letter-spacing:3px;
+		color:#fff;
+		font-family: 'Poiret One', cursive;
+    }
+	
+	.name {
+	    padding:10px 20px 10px 20px;
+		margin-bottom:30px;
+		background:#333333;
+		border:0;
+		outline:none;
+	}
+	
+	#social {
+	    padding:10px 10px 0px 10px;
+	    position:absolute;
+		left:0px;
+		bottom:10px;
+		background:#333333;
+		border:0;
+		outline:none;
+	}
+	
+	#social ul {
+	    list-style:none;
+		display:inline;
+	}
+	
+	#social ul li a{
+	    display:inline;
+		color:#dddddd;
+		font-size:30px;
+		text-decoration:none;
+	}
+	
+	#social ul li {
+	    padding-bottom:10px;
+	}
+	
+	/* SCROLL DOWN BUTTON */
+    .btn-circle {
+        width: 70px;
+        height: 70px;
+        border: 2px solid #505050;
+        border-radius: 100%;
+    }
+
+    .btn-circle:hover {
+        background: rgba(255,255,255,0.1);
+    }
+
+</style>
+
+</head>
+
+<body>
+
+<div id="wrapper_1" class="container-fluid">
+  <div id="header" class="container-fluid">
+	<div id="welcome">
+	  <div class="name">
+	    <h1>VINAY SINGH</h1>
+	  </div>
+	    <h4>Web Designer/Front End Developer.</h4>
+	    <a href="#aboutme" class="btn btn-circle">
+	        <i class="fa fa-angle-double-down"></i>
+		</a>
+	</div>
+  <div id="social">
+      <ul>
+	      <li><a href="#" class="fa fa-facebook"></a></li>
+		  <li><a href="#" class="fa fa-linkedin"></a></li>
+		  <li><a href="#" class="fa fa-soundcloud"></a></li>
+		  <li><a href="#" class="fa fa-instagram"></a></li>
+	  </ul>
+  </div>
+</div>
+
+</body>
+
+</html>
